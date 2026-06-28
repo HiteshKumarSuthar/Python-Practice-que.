@@ -186,5 +186,3 @@ else:
                         print("FAIL!! BETTER LUCK NEXT TIME")
                     
 
-#Change this file
-#Some more questions are pending to be added in this file.
