@@ -71,6 +71,15 @@
 
 
 # #Print the first N terms of the Fibonacci series.
+# n = int(input("Enter the number : "))
+# a = 0
+# b = 1
+
+# for i in range(n):
+#     print(a, end=" ")
+#     c = a + b
+#     a = b
+#     b = c
 
 
 # #Print all numbers from 1 to 100 that are divisible by 3.
@@ -164,6 +173,20 @@
             
 
 # #4. Find and print the largest among three numbers.
+
+# num_1 = int(input("Enter the number : "))
+# num_2 = int(input("Enter the number : "))
+# num_3 = int(input("Enter the number : "))
+
+# if num_1 >= num_3 or num_1 > num_2:
+#     print("Largest number is:", num_1)
+
+# elif num_2 >= num_3 or num_1 > num_2:
+#     print("Largest number is:", num_2)
+
+# elif num_3 >= num_2 or num_3 > num_1:
+#     print("Largest number is:", num_3)
+
 
 
 # #5.Check whether a student has passed or failed (Passing Marks = 33).
@@ -314,3 +337,48 @@
 #         print("Division by zero is not possible.")
 # else:
 #     print("Invalid Operator")
+
+##16. Print diff. type of yes, Yes, YES or no, No, NO and using if-else.
+# reply = input("Enter your reply:")
+
+# if reply == "yes" or reply == "Yes" or reply == "YES":
+#      print ("Yes I will join.")
+
+# elif reply == "No" or reply == "NO" or reply == "no":
+#      print("No I'm not able to join.")
+
+# else:
+#       print("Invalid reply.")
+
+
+
+# #*************STRING-QUESTION.*************
+
+##1.Take a string input from the user and print it.
+# name = input("Ente your name : ")
+
+# print(name)
+
+#@2. Print the length of the string.
+# name = input("Enter your First and Last name : ")
+
+# print(len(name))
+
+##3. Convert the string to uppercase.
+# name = input("Enter your name : ")
+
+# temp = name.upper()
+# print(temp)
+
+##4. Convert the string to lowercase.
+# my_string = input("Enter a string : ")
+
+# msg = my_string.lower()
+# print(msg)
+
+##5. Print the first and last character of the string.
+# char = input("Enter your fav. Language : ")
+
+# print("First character :", char[0])
+# print("Last character :", char[5])
+
