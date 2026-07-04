@@ -70,27 +70,28 @@
 # print("With indexing->", numbers[6])
 
 #Q-9
-number = [2, 5, 3, 6, 8, 9]
+# number = [2, 5, 3, 6, 8, 9]
 
-square = []
+# square = []
 
-for i in number:
-    square.append(i ** 2)
+# for i in number:
+#     square.append(i ** 2)
     
-print(square)
+# print(square)
 
 #Q-10
-number = [2, 5, 3, 6, 8, 9]
-numbers = [34, 5, 7, 23, 65, 798, 23, 88, 44]
+# number = [2, 5, 3, 6, 8, 9]
+# numbers = [34, 5, 7, 23, 65, 798, 23, 88, 44]
 
-# number.append(numbers)
-# print(number)
+# # number.append(numbers)
+# # print(number)
 
-#Merge two list
-num = number + numbers
-print(num)
+# #Merge two list
+# num = number + numbers
+# print(num)
 
-numbers = [34, 5, 7, 23, 65, 798, 44, 88, 23, 88, 44]
+#Q-11
+# numbers = [34, 5, 7, 23, 65, 798, 44, 88, 23, 88, 44]
 
-unique = list(set(numbers))
-print(unique)
+# unique = list(set(numbers))
+# print(unique)
