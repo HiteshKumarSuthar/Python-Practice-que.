@@ -1,3 +1,5 @@
+##----LIST-QUESTION----
+
 ##Q-1
 # star = "*"
 
@@ -95,3 +97,24 @@
 
 # unique = list(set(numbers))
 # print(unique)
+
+#Q-12
+# items = ["tv", "laptop", "desktop", "phone", "headphone"]
+
+# for item in items:
+#     print(item, end=", ")
+    
+
+
+#Q-13
+
+# device = input("Find your device : ")
+# items = ["tv", "laptop", "desktop", "phone", "headphone"]
+
+# for i in items:
+#     if device == i:
+#         print(i)
+
+##----STRING-QUESTION----
+
+
