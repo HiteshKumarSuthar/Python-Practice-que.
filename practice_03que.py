@@ -115,6 +115,3 @@
 #     if device == i:
 #         print(i)
 
-##----STRING-QUESTION----
-
-
