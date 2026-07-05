@@ -115,3 +115,16 @@
 #     if device == i:
 #         print(i)
 
+#Q-14
+
+lst = []
+
+lst.insert(0, 2)
+lst.append(4)
+lst.insert(2, 6)
+
+print(lst)
+
+lst.reverse()
+lst.remove(2)
+print(lst)
