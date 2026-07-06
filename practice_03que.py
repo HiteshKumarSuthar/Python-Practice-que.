@@ -141,12 +141,18 @@
         
 
 #Q-16
-number = int(input("Enter the number "))
+# number = int(input("Enter the number "))
 
-for i in range(1, 20):
-    if i% number == 0:
-        print(i, "even number")
-    else:
-        print(i, "Odd number")
-        i += 1
+# for i in range(1, 20):
+#     if i% number == 0:
+#         print(i, "even number")
+#     else:
+#         print(i, "Odd number")
+#         i += 1
         
+
+#Q-17
+element = ["Hitesh"]
+
+for i in element:
+    print(i[-1])
