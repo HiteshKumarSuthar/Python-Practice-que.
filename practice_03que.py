@@ -117,14 +117,36 @@
 
 #Q-14
 
-lst = []
+# lst = []
 
-lst.insert(0, 2)
-lst.append(4)
-lst.insert(2, 6)
+# lst.insert(0, 2)
+# lst.append(4)
+# lst.insert(2, 6)
 
-print(lst)
+# print(lst)
 
-lst.reverse()
-lst.remove(2)
-print(lst)
+# lst.reverse()
+# lst.remove(2)
+# print(lst)
+
+
+#Q-15
+# system = ["laptop", "iphone", "macbook", "ipod", "alexa"]
+
+# items = input("Find your system : ")
+
+# for i in system:
+#     if items == i:
+#         print("This system available : ", i)
+        
+
+#Q-16
+number = int(input("Enter the number "))
+
+for i in range(1, 20):
+    if i% number == 0:
+        print(i, "even number")
+    else:
+        print(i, "Odd number")
+        i += 1
+        
