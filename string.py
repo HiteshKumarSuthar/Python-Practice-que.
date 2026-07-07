@@ -74,15 +74,50 @@
 
 
 ##-4-
-name = "Hitesh Kumar Suthar"
+# name = "Hitesh Kumar Suthar"
 
-print(len(name))
-print("Hitesh" in name)
+# print(len(name))
+# print("Hitesh" in name)
 
-for letter in name:
-    print(letter)
+# for letter in name:
+#     print(letter)
     
 
 ##Eg.
-path = r"c:/user/Hitesh/window11"
-print(path)
+# path = r"c:/user/Hitesh/window11"
+# print(path)
+
+#-5-
+# name = "Hitesh"
+
+# for names in name:
+#     if "Hitesh" in name:
+#         print("True")
+#     else:
+#         print("False")
+    
+#-6-
+# char = "hithehsh"
+# print(char.count("h"))
+# print(char.replace("h", "H"))
+
+# #-7-
+# name = "Python programming"
+
+# #substring
+# # print("python" in name)
+
+# print(len(name))
+
+# print(name)
+
+# #remove duplicate value
+# print("".join(set(name)))
+
+
+#-8-
+name = "hitesh suthar"
+#first ch. upper
+text = name.title()
+print(text)
+
