@@ -116,8 +116,9 @@
 
 
 #-8-
-name = "hitesh suthar"
-#first ch. upper
-text = name.title()
-print(text)
+# name = "hitesh suthar"
+# #first ch. upper
+# text = name.title()
+# print(text)
+
 
