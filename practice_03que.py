@@ -150,9 +150,3 @@
 #         print(i, "Odd number")
 #         i += 1
         
-
-#Q-17
-element = ["Hitesh"]
-
-for i in element:
-    print(i[-1])
