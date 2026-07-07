@@ -150,3 +150,69 @@
 #         print(i, "Odd number")
 #         i += 1
         
+
+##----PRACTICE-QUESTION----
+
+# fruits = ["Mango", "Apple", "Orange", "Litchi", "Muskmalon"]
+
+# fruits[0:1] = ["Banana"] #replace 0th index 
+
+# fruits.pop() #last element remove
+
+# print(fruits)
+
+# #Using loop element check
+# for i in fruits:
+#     if "Apple" in i:
+#         print("True")
+
+
+
+##(X**2) square
+# squared_number = [x**2 for x in range(10)]
+# print(squared_number)
+
+# ##(x**3) cube
+# cube_number = [x**3 for x in range(10)]
+# print(cube_number)
+
+
+##copy() method
+# fruits = ["Mango", "Apple", "Orange", "Litchi", "Muskmalon"]
+
+# fruits_copy = fruits.copy()
+# fruits_copy.append("lemon")
+
+# print(fruits)
+# print(fruits_copy)
+
+
+##Percentage calculator
+# your_marks = int(input("Enter your marks : "))
+
+# percentage = your_marks / 500 * 100
+
+# print(percentage)
+
+
+##que
+# num = [1, 3, 5, 2, 4]
+
+# num.extend([7, 6])
+# num.sort()
+
+# print(num)
+
+
+##que
+number = [1, 2, 3, 4, 5, 6, 1]
+
+# number.remove(1)
+print(number)
+
+print(number.count(1))
+print(number.index(1))
+print(number.clear())
+number.append(1)
+print(number)
+
