@@ -120,5 +120,3 @@
 # #first ch. upper
 # text = name.title()
 # print(text)
-
-
