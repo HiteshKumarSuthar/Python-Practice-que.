@@ -1,3 +1,5 @@
+##----DICTIONARIES----
+
 # student_details = {
 #     "name" : "Hitesh",
 #     "age" : 19,
@@ -80,8 +82,8 @@
 # print(new_dict)
 
 
-##--SAMPLE DATA--
 
+##--SAMPLE DATA--
 product = {
     "Mobile" : {
         "M1" : {
@@ -129,8 +131,18 @@ product = {
 
 # print(product.get())
 
+##To retrieve data for a specific ID
+
 for key, value in product["Mobile"]["M3"].items():
     print(key, ":", value)
-    
+##output    
+## Brand : Vivo
+## Model : X300 Ultra
+## Price : 159000
+
+
 m1_data = product["Mobile"]["M1"]
 print(m1_data)
+##output
+## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
+
