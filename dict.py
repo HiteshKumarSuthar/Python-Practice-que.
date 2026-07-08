@@ -84,65 +84,79 @@
 
 
 ##--SAMPLE DATA--
-product = {
-    "Mobile" : {
-        "M1" : {
-        "Brand" : "Apple",
-        "Model" : "17 Pro Max",
-        "Price" : 189000,
-        },
+# product = {
+#     "Mobile": {
+#         "M1": {
+#         "Brand": "Apple",
+#         "Model": "17 Pro Max",
+#         "Price": 189000,
+#         },
         
-        "M2" : {
-        "Brand" : " Samsung",
-        "Model" : "S26 Ultra",
-        "Price" : 149000,
-        },
+#         "M2": {
+#         "Brand": " Samsung",
+#         "Model": "S26 Ultra",
+#         "Price": 149000,
+#         },
         
-        "M3" : {
-        "Brand" : "Vivo",
-        "Model" : "X300 Ultra",
-        "Price" : 159000,
-        },
-    },
+#         "M3": {
+#         "Brand": "Vivo",
+#         "Model": "X300 Ultra",
+#         "Price": 159000,
+#         },
+#     },
     
-    "Laptop" : {
-        "L1" : {
-        "Brand" : "Apple",
-        "Model" : "MacBook Pro M5 Max",
-        "Price" : 429900,
-        },
+#     "Laptop": {
+#         "L1": {
+#         "Brand": "Apple",
+#         "Model": "MacBook Pro M5 Max",
+#         "Price": 429900,
+#         },
         
-        "L2" : {
-        "Brand" : "Asus",
-        "Model" : "Vivobook 14 Go",
-        "Price" : 45000,
-        },
+#         "L2": {
+#         "Brand": "Asus",
+#         "Model": "Vivobook 14 Go",
+#         "Price": 45000,
+#         },
         
-        "L3" : {
-        "Brand" : "Lenovo",
-        "Model" : "LOQ",
-        "Price" : 90000,
-        },
-    },
-}
+#         "L3": {
+#         "Brand": "Lenovo",
+#         "Model": "LOQ",
+#         "Price": 90000,
+#         },
+#     },
+# }
 
 # print(product["Laptop"]["L3"])
 
 
-# print(product.get())
+# # print(product.get())
 
-##To retrieve data for a specific ID
+# ##To retrieve data for a specific ID
 
-for key, value in product["Mobile"]["M3"].items():
-    print(key, ":", value)
-##output    
-## Brand : Vivo
-## Model : X300 Ultra
-## Price : 159000
+# for key, value in product["Mobile"]["M3"].items():
+#     print(key, ":", value)
+# ##output    
+# ## Brand : Vivo
+# ## Model : X300 Ultra
+# ## Price : 159000
 
 
-m1_data = product["Mobile"]["M1"]
-print(m1_data)
-##output
-## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
+# m1_data = product["Mobile"]["M1"]
+# print(m1_data)
+# ##output
+# ## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
+
+
+##-Que.-
+# item = ("suresh", "hitesh", "chirag", "ramesh", "kishor", "aryan", "kundan", "mahipal", "partyaksh", "khushawant")
+
+
+# for i in item:
+#     if "a" in i:
+#         print(i)
+
+
+# for i in item:
+#     if i[1] == "a":
+#         print(i)
 

@@ -1,0 +1,13 @@
+STRING METHODS()
+
+split
+strip
+join
+title
+replace
+upper
+lower
+len 
+format
+find
+count
