@@ -36,18 +36,5 @@ print(student.values())
 #copy
 print(student.copy())
 
-#clear dict.
+#clear
 print(student.clear())
-
-
-
-
-
-
-
-
-
-
-
-
-##-Q-2-
