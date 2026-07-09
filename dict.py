@@ -146,17 +146,3 @@
 # ##output
 # ## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
 
-
-##-Que.-
-# item = ("suresh", "hitesh", "chirag", "ramesh", "kishor", "aryan", "kundan", "mahipal", "partyaksh", "khushawant")
-
-
-# for i in item:
-#     if "a" in i:
-#         print(i)
-
-
-# for i in item:z
-#     if i[1] == "a":
-#         print(i)
-
