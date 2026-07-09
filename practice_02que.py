@@ -42,15 +42,3 @@
 # #ID
 # print(id(student))
 
-
-##mutable
-# tup = (1, 2, 3)
-
-# tup[1] = 2
-
-# print(tup)
-
-lst = [1, 2, 3]
-
-lst[0] = 2
-print(lst)
