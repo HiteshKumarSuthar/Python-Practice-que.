@@ -1,43 +1,56 @@
 ##----PRACRICE-QUESTION----
 
-##-Q-1-
-student = {
-    "name" : "Hitesh",
-    "age" : 19,
-    "city" : "jaipur",
-}
+# ##-Q-1-
+# student = {
+#     "name" : "Hitesh",
+#     "age" : 19,
+#     "city" : "jaipur",
+# }
 
+# # print(student)
+
+# # for key, value in student.items():
+# #     print(key, ":", value )
+    
+# print(student["name"])
+
+# #New kay value add
+# student["mobile"] = "iphone"
 # print(student)
 
-# for key, value in student.items():
-#     print(key, ":", value )
-    
-print(student["name"])
+# #update age
+# student["age"] = 20
+# print(student)
 
-#New kay value add
-student["mobile"] = "iphone"
-print(student)
+# #delete city key, value
+# del student["city"]
+# print(student)
 
-#update age
-student["age"] = 20
-print(student)
+# #all key print using for loop 
+# for i in student:
+#     print(i)
 
-#delete city key, value
-del student["city"]
-print(student)
+# #All value print
+# print(student.values())
 
-#all key print using for loop 
-for i in student:
-    print(i)
+# #copy
+# print(student.copy())
 
-#All value print
-print(student.values())
+# #clear
+# print(student.clear())
 
-#copy
-print(student.copy())
+# #ID
+# print(id(student))
 
-#clear
-print(student.clear())
 
-#ID
-print(id(student))
+##mutable
+# tup = (1, 2, 3)
+
+# tup[1] = 2
+
+# print(tup)
+
+lst = [1, 2, 3]
+
+lst[0] = 2
+print(lst)
