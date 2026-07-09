@@ -38,3 +38,6 @@ print(student.copy())
 
 #clear
 print(student.clear())
+
+#ID
+print(id(student))
