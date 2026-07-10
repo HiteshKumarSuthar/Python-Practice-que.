@@ -22,34 +22,88 @@
 # print(tup)
 
 #-Q2-
-name = ("Hitesh", "Kumar", "Hitesh")  #object
+# name = ("Hitesh", "Kumar", "Hitesh")  #object
 
-new_name = ("Suthar",)  #object
+# new_name = ("Suthar",)  #object
 
-all_name = name + new_name  #object
+# all_name = name + new_name  #object
 
-print(all_name)
+# print(all_name)
 
-#check condition
-if "Hitesh" in name:
-    print(True)
-else:
-    print(False)
+# #check condition
+# if "Hitesh" in name:
+#     print(True)
+# else:
+#     print(False)
     
     
-#count
-print(name.count("Hitesh"))
+# #count
+# print(name.count("Hitesh"))
 
-#as a variable use 
-(hitesh, kumar, hitesh) = name
-print(hitesh)
+# #as a variable use 
+# (hitesh, kumar, hitesh) = name
+# print(hitesh)
 
-#type
-print(type(name))
+# #type
+# print(type(name))
 
 
-#Nesting tuple
-x = ("Hitesh", (11), "Kumar", ("suthar"))
+# #Nesting tuple
+# x = ("Hitesh", (11), "Kumar", ("suthar"))
 
-print(x)
+# print(x)
+
+
+
+##-Que-
+
+# value = (1, 2, 3, 4, 1)
+
+
+# print(value[0])
+# print(value[3])
+# print(value[-1])
+# print("Length is :", len(value))
+
+# for tup in value:
+#     print(tup)
+
+# i = 0
+# while i < (len(value)):
+#     print(value[i])
+#     i += 1
+
+# print(sum(value))
+
+# print(max(value))
+# print(min(value))
+
+# print(value.count(1))
+
+# print(value.index(4))
+
+
+# print(value * 3)
+
+# print(value[2 : 4])
+# print(value[0 : 3])
+
+
+#convert tuple to list
+# convert = list(value)
+
+# print(convert)
+
+
+a = [1, 1, 1, 2, 2, 2, 3, 3, 3]
+
+b = []
+
+for i in a:
+    if i not in b:
+        b.append(i)
+    
+
+print(a)
+print(b)   
 
