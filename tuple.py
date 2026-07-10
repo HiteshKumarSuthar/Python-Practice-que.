@@ -95,15 +95,29 @@
 # print(convert)
 
 
-a = [1, 1, 1, 2, 2, 2, 3, 3, 3]
+##Clean duplicate
+# a = [1, 1, 1, 2, 2, 2, 3, 3, 3]
 
-b = []
+# b = []
 
-for i in a:
-    if i not in b:
-        b.append(i)
+# for i in a:
+#     if i not in b:
+#         b.append(i)
     
 
-print(a)
-print(b)   
+# print(a)
+# print(b)   
+
+
+number = int(input("Enter the number : "))
+
+num = (1, 2, 3, 4, 1, 4, 2, 1, 5)
+
+count = 0
+
+for i in num:
+    if number == i:
+        count += 1
+
+print(count)
 
