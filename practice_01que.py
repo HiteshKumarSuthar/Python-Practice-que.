@@ -1,6 +1,6 @@
 ##----PRACTICE-QUESTION----
 ##String method()
-city = "jaipur"
+# city = "jaipur"
 
 ##Slicing
 # print(city[0:3])
