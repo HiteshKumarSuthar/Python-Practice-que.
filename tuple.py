@@ -109,15 +109,41 @@
 # print(b)   
 
 
-number = int(input("Enter the number : "))
+##Count element in tuple
+# number = int(input("Enter the number : "))
 
-num = (1, 2, 3, 4, 1, 4, 2, 1, 5)
+# num = (1, 2, 3, 4, 1, 4, 2, 1, 5)
 
-count = 0
+# count = 0
 
-for i in num:
-    if number == i:
-        count += 1
+# for i in num:
+#     if number == i:
+#         count += 1
 
-print(count)
+# print(count)
 
+
+##Concatenation in tuple
+# tup_1 = (1, 2, 3)
+# tup_2 = (4, 5, 6)
+
+# tup_3 = tup_1 + tup_2  #Concatenation
+
+# print(tup_3)
+
+
+#Slicing in tuple
+# name = ("HITESHKUMARSUTHAR")
+
+# print(name[0:17])
+# print(name[::2])  # [::step] allows stepping through elements 
+# print(name[::-1]) # [::-1] returns the tuple in reverse order
+
+
+##Tuple Unpacking with Asterisk (*)
+tup = (1, 2, 3, 4, 5)
+
+a, *b = tup
+
+print(a)
+print(b)
