@@ -141,9 +141,10 @@
 
 
 ##Tuple Unpacking with Asterisk (*)
-tup = (1, 2, 3, 4, 5)
+# tup = (1, 2, 3, 4, 5)
 
-a, *b = tup
+# a, *b = tup
 
-print(a)
-print(b)
+# print(a)
+# print(b)
+
