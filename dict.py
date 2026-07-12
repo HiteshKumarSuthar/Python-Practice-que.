@@ -1,5 +1,22 @@
 ##----DICTIONARIES----
 
+##Accessing Dictionary Items
+d = {"name": "Hitesh", "age": 21}
+
+print(d["name"])     # Access using key
+print(d.get("age"))  # Access using get()
+
+d = {"name": "Sam"}
+
+
+##Adding and Updating Dictionary Items
+d["age"] = 21        # Adding a new key-value pair
+d["name"] = "Alex"   # Updating an existing value
+print(d)
+
+
+
+
 # student_details = {
 #     "name" : "Hitesh",
 #     "age" : 19,
@@ -145,4 +162,3 @@
 # print(m1_data)
 # ##output
 # ## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
-
