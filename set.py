@@ -130,6 +130,7 @@
 # s = {"Hitesh", 11, 11.1, True}
 # print(s)
 
+
 ##Frozen Sets
 number = frozenset([10, 20, 30, 40]) 
 
@@ -140,13 +141,14 @@ print(50 in number)
 print(number)
 print(type(number))
 
-
+#Union
 a = frozenset([1, 2, 3])
 b = frozenset([4, 5, 6])
 
 print(a | b)
 
-##
+
+##Que.
 key = frozenset(["Python", "Java"])
 
 data = {
@@ -155,11 +157,12 @@ data = {
 
 print(data)
 
+
+
+
 ##----PRACTICE-QUE----
 #Q-1
 # num = range(1, 101)
 
 # number = {x for x in num if x % 2 == 0}
 # print(number)
-
-
