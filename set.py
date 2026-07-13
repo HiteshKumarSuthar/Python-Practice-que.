@@ -132,36 +132,30 @@
 
 
 ##Frozen Sets
-number = frozenset([10, 20, 30, 40]) 
+# number = frozenset([10, 20, 30, 40]) 
 
-#Membership check
-print(20 in number)
-print(50 in number)
+# #Membership check
+# print(20 in number)
+# print(50 in number)
 
-print(number)
-print(type(number))
+# print(number)
+# print(type(number))
 
-#Union
-a = frozenset([1, 2, 3])
-b = frozenset([4, 5, 6])
+# #Union
+# a = frozenset([1, 2, 3])
+# b = frozenset([4, 5, 6])
 
-print(a | b)
-
-
-##Que.
-key = frozenset(["Python", "Java"])
-
-data = {
-    key: "Programming Languages"
-}
-
-print(data)
+# print(a | b)
 
 
+# ##Que.
+# key = frozenset(["Python", "Java"])
 
+# data = {
+#     key: "Programming Languages"
+# }
 
-
-
+# print(data)
 
 
 
@@ -171,3 +165,30 @@ print(data)
 
 # number = {x for x in num if x % 2 == 0}
 # print(number)
+
+#Q-2
+# a = {1, 2, 3, 4, 5}
+# b = {3, 4, 6, 7, 8}
+
+# print(a - b)
+
+#Q-3
+# a = {10, 20, 30, 40}
+# b = {40, 50, 60, 70}
+
+# print(a ^ b)
+
+#Q-4
+# a = {1, 2, 3, 4, 2, 5, 6, 5}
+
+# num = {x**2 for x in a if x % 2 == 0}
+
+# print(num)
+
+#Q-5
+# vowel = "Hitesh Suthar"
+
+# letter = {ch.lower() for ch in vowel if ch.lower() in "aeiou"}
+
+# print(letter)
+
