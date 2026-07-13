@@ -62,6 +62,12 @@
 
 # print("You entered:", nums)
 
+##Membership check
+# It checks whether an element is present in a collection or not.
+
+# Syntax => element in collection
+# Syntax => element not in collection
+
 
 
 ## Question 1: Create a Set and Add an Element
@@ -79,6 +85,8 @@
 # b = set(a)
 
 # print(b)
+
+
 
 ##---METHOD()-PRC----
 
@@ -99,19 +107,53 @@
 # print(a)
 
 
-a = {1, 2, 3}
-b = {1, 4, 5}
+# a = {1, 2, 3}
+# b = {1, 4, 5}
 
-print(a.union(b))
-print(a.intersection(b))
-print(a.difference(b))
-
-
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))
 
 
+# s = {1, 2, 3, 4}
+
+# print(s)
+# print(type(s))
+
+##Type Casting
+# l = [1, 2, 3]
+
+# s = set(l)
+# print(s)
+
+##Heterogeneous Element
+# s = {"Hitesh", 11, 11.1, True}
+# print(s)
+
+##Frozen Sets
+number = frozenset([10, 20, 30, 40]) 
+
+#Membership check
+print(20 in number)
+print(50 in number)
+
+print(number)
+print(type(number))
 
 
+a = frozenset([1, 2, 3])
+b = frozenset([4, 5, 6])
 
+print(a | b)
+
+##
+key = frozenset(["Python", "Java"])
+
+data = {
+    key: "Programming Languages"
+}
+
+print(data)
 
 ##----PRACTICE-QUE----
 #Q-1
