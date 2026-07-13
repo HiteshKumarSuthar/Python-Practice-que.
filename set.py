@@ -160,6 +160,11 @@ print(data)
 
 
 
+
+
+
+
+
 ##----PRACTICE-QUE----
 #Q-1
 # num = range(1, 101)
