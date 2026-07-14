@@ -1,18 +1,18 @@
 ##----DICTIONARIES----
 
 ##Accessing Dictionary Items
-d = {"name": "Hitesh", "age": 21}
+# d = {"name": "Hitesh", "age": 21}
 
-print(d["name"])     # Access using key
-print(d.get("age"))  # Access using get()
+# print(d["name"])     # Access using key
+# print(d.get("age"))  # Access using get()
 
-d = {"name": "Sam"}
+# d = {"name": "Sam"}
 
 
 ##Adding and Updating Dictionary Items
-d["age"] = 21        # Adding a new key-value pair
-d["name"] = "Alex"   # Updating an existing value
-print(d)
+# d["age"] = 21        # Adding a new key-value pair
+# d["name"] = "Alex"   # Updating an existing value
+# print(d)
 
 
 
@@ -162,3 +162,15 @@ print(d)
 # print(m1_data)
 # ##output
 # ## {'Brand': 'Apple', 'Model': '17 Pro Max', 'Price': 189000}
+
+
+##Nested Dictionary
+d = {
+    "student" : {
+        "name" : "Hitesh Kumar Suthar",
+        "Class" : 12,
+        "age" : 18,
+    }
+}
+
+print(d["student"]["name"])
