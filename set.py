@@ -249,4 +249,9 @@
 # print(a - b - c - d - e)
 
 
+lst = [1, 2, 3, 4, 2, 4, 3, 3, 5, 7, 6]
+print("duplicate value :", lst)
+s = set(lst)
+print("unique value :", s)
+print("length is :", len(s))
 
