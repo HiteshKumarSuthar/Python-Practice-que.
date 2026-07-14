@@ -192,3 +192,31 @@
 
 # print(letter)
 
+#Q-6
+# number = {}
+
+# num = {x for x in range(1, 100) if x % 3 == 0 and x % 5 == 0}
+
+# number = num
+
+# print("number :", number)
+
+#Q-7
+# a = {9, 8, 7, 6}
+# b = {5, 4, 6, 2}
+# c = {1, 3, 6, 7}
+
+# print("Common number in set :", a.intersection(b, c))
+
+#Q-8
+# A = {1, 2}
+# B = {3, 4, 1, 2}
+
+# print(A.issubset(B))  #True
+# print(B.issubset(A))  #False
+
+#Q-9
+letter = "HiTesH"
+
+w = {ch for ch in letter if ch.isupper()}
+print(w)
