@@ -216,8 +216,37 @@
 # print(B.issubset(A))  #False
 
 #Q-9
-letter = "HiTesH"
+# letter = "HiTesH"
 
-w = {ch for ch in letter if ch.isupper()}
-print(w)
+# w = {ch for ch in letter if ch.isupper()}
+# print(w)
+
+#Q-10
+# name = "Hitesh kumar suthar"
+# string = name.split()
+
+# word = {len(x) for x in string}
+# print(word)
+
+#hash() method
+# a = {"Python", "java", "js"}
+
+# print(hash("c"))  #return hash value
+
+# b = {1, 2, 3}
+
+# print(1 in b)  #return 1
+
+#-Q-1
+# a = {1, 2, 3, 4}
+# b = {5, 6, 1, 7}
+# c = {8, 9, 10, 1}
+# d = {2, 11, 12, 1}
+# e = {13, 14, 1, 15}
+
+# print(a | b | c | d | e)
+# print(a & b & c & d & e)
+# print(a - b - c - d - e)
+
+
 
