@@ -165,12 +165,12 @@
 
 
 ##Nested Dictionary
-d = {
-    "student" : {
-        "name" : "Hitesh Kumar Suthar",
-        "Class" : 12,
-        "age" : 18,
-    }
-}
+# d = {
+#     "student" : {
+#         "name" : "Hitesh Kumar Suthar",
+#         "Class" : 12,
+#         "age" : 18,
+#     }
+# }
 
-print(d["student"]["name"])
+# print(d["student"]["name"])
