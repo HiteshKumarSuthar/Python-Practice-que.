@@ -174,3 +174,47 @@
 # }
 
 # print(d["student"]["name"])
+
+
+##Student id ko automate krna hai use range()
+students = {}
+
+number_of_students = int(input("How many students? : "))
+
+for i in range(1, number_of_students+1):
+    name = input("Enter your name: ")
+    
+    while True:
+        
+        age = int(input("Enter your age: "))
+        
+        if age > 0 and age <= 100:
+             break
+        else:
+            print("Invalid age")
+            
+            
+    course = input("Your course: ")
+    city = input("Which is your city? : ")
+
+    student_id = int(input("Student id (numbers only): "))
+
+    students[student_id] = {
+        "name": name,
+        "age": age,
+        "course": course,
+        "city": city
+    }
+    
+choice = input("Do you want to see the students?[y/n]: ")
+
+if choice == "y" or choice == "Y":
+    for key, value in students.items():
+        print(key, ":", value)
+        
+elif choice == "n" or choice == "N":
+    print("Good bye...")
+    
+else:
+    print("Invalid choice! Please enter y or n only.")
+
