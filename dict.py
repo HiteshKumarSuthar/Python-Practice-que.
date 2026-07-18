@@ -253,62 +253,62 @@
 
 
 ##====PRODUCT INVENTORY PROGRAM====
-products = {}
+# products = {}
 
-while True:
-    print("\n**** Product Inventory Management ****")
-    print("1. Add Product")
-    print("2. Delete Product")
-    print("3. Search Product")
-    print("4. Display Products")
-    print("5. Exit")
+# while True:
+#     print("\n**** Product Inventory Management ****")
+#     print("1. Add Product")
+#     print("2. Delete Product")
+#     print("3. Search Product")
+#     print("4. Display Products")
+#     print("5. Exit")
     
-    choice = int(input("Enter your choice between (1-4) : "))
+#     choice = int(input("Enter your choice between (1-4) : "))
     
-    if choice == 1:
-        while True:
-            product_id = int(input("Enter Product_id (must be unique) : "))
+#     if choice == 1:
+#         while True:
+#             product_id = int(input("Enter Product_id (must be unique) : "))
             
-            if product_id not in products:
-                break
-            else:
-                print("Invalid id")
+#             if product_id not in products:
+#                 break
+#             else:
+#                 print("Invalid id")
                 
-        product_name = input("Enter product name : ")
-        price = int(input("Enter product price (INR) : "))
-        quantity = int(input("Enter product quantity : "))
+#         product_name = input("Enter product name : ")
+#         price = int(input("Enter product price (INR) : "))
+#         quantity = int(input("Enter product quantity : "))
         
-        products[product_id] = {
-            "Product Name": product_name,
-            "Price": price,
-            "Quantity": quantity
-        }
+#         products[product_id] = {
+#             "Product Name": product_name,
+#             "Price": price,
+#             "Quantity": quantity
+#         }
         
-        print("\nProduct added successfully!")
+#         print("\nProduct added successfully!")
     
-    elif choice == 2:
-        input_product_id = int(input("Enter product id : "))
+#     elif choice == 2:
+#         input_product_id = int(input("Enter product id : "))
         
-        if input_product_id in products:
-            del products[input_product_id]
-            print("Product deleted...")
-        else:
-            print("Product not found!")
+#         if input_product_id in products:
+#             del products[input_product_id]
+#             print("Product deleted...")
+#         else:
+#             print("Product not found!")
         
-    elif choice == 3:
-        search_product_id = int(input("Enter the product id : "))
+#     elif choice == 3:
+#         search_product_id = int(input("Enter the product id : "))
         
-        for productid, productdetails in products.items():
-            if search_product_id == productid:
-                print(productid, ":", productdetails)
+#         for productid, productdetails in products.items():
+#             if search_product_id == productid:
+#                 print(productid, ":", productdetails)
             
             
-    elif choice == 4:
-       for productid, product_details in products.items():
-           print(productid, ":", product_details)
+#     elif choice == 4:
+#        for productid, product_details in products.items():
+#            print(productid, ":", product_details)
            
-    elif choice == 5:
-        print("Thank you for using this product inventory")
+#     elif choice == 5:
+#         print("Thank you for using this product inventory")
     
-    else:
-        print("Invalid choice")
+#     else:
+#         print("Invalid choice")
