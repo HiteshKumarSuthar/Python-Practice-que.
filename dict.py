@@ -16,7 +16,6 @@
 
 
 
-
 # student_details = {
 #     "name" : "Hitesh",
 #     "age" : 19,
@@ -28,6 +27,7 @@
 
 # student_details["name"] = "Suresh"
 # print(student_details)
+
 
 
 # #Using for loop
@@ -79,7 +79,6 @@
 # }
 # print(student_details)
 # print(student_details["Chirag"])
-
 
 
 # squared_num = {x : x**2 for x in range(11)}
@@ -145,7 +144,6 @@
 
 # print(product["Laptop"]["L3"])
 
-
 # # print(product.get())
 
 # ##To retrieve data for a specific ID
@@ -176,7 +174,8 @@
 # print(d["student"]["name"])
 
 
-##---Que.---
+
+##====Que.====
 # students = {}
 
 # number_of_students = int(input("How many students? : "))
@@ -215,14 +214,12 @@
 # for key,value in students.items():
 #     if find_id == key:
 #         print(value)
-
-
 #         break
 #     else:
 #         print("No student found!")
         
         
-        
+
 ##====Question 3: Simple Inventory Management System====
 
 # Create a dictionary to store product details.
@@ -315,4 +312,3 @@ while True:
     
     else:
         print("Invalid choice")
-    
