@@ -317,7 +317,7 @@
 
 
 ##===Question===
-# #Q-1
+# #Q-1-baisc
 # dict = {
 #     "name" : "Hitesh",
 #     "age" : 20,
@@ -332,7 +332,7 @@
 # dict["course"] = "BTech"
 # print(dict)
 
-# #Q-4
+# #Q-4-medium
 # dic = {}
 
 # for ch in dict:
@@ -343,4 +343,72 @@
         
 # print(dic)
 
-#Q-5
+# #Q-5
+# dic_1 = {
+#     "company" : "Apple",
+#     "version-model" : "Macbook pro M5",
+#     "rate" : 189000
+# }
+
+# dic_2 = {
+#     "brand" : "Asus",
+#     "model" : "ROG",
+#     "Price" : 249000
+# }
+# #Merge two dict.
+# print(dic_1 | dic_2 )
+
+# #Q-6
+# student = {
+#     "students" : {
+#         "name_1" : "Hitesh",
+#         "name_2" : "Suresh",
+#         "name_3" : "Chirag"
+#     }
+# }
+
+# print(student["students"])
+
+# #Q-7
+# student["students"].pop("name_1")
+# print(student)
+
+#Q-8-hard
+# Build a menu-driven student record system (add/search/delete/display).
+# student = {}
+
+# number_of_studnet = int(input("Enter the number of studnets(e.g. student1, student2.... : )"))
+
+# for i in range(1, number_of_studnet+1):
+#     name = input("Enter your name : ")
+    
+#     while True:
+#         age = int(input("Enter your age : "))
+#         if age > 0 and age <= 100:
+#             break
+#         else:
+#             print("invalid age")
+    
+#     course = input("Enter your course : ")
+#     city = input("Enter your city : ")
+    
+#     id_format = "ID"
+#     number = i
+#     Enter_id = id_format + str(number)
+    
+#     student[Enter_id] = {
+#         "name" : name,
+#         "age" : age,
+#         "course" : course,
+#         "city" : city,
+#     }
+    
+# Enter_id = input("Enter your id : ")
+    
+# for key, value in student.items():
+#     if Enter_id == key:
+#         print(value)
+#         break
+#     else:
+#         print("Students not found")
+
