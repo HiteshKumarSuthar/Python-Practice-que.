@@ -312,3 +312,35 @@
     
 #     else:
 #         print("Invalid choice")
+
+
+
+
+##===Question===
+# #Q-1
+# dict = {
+#     "name" : "Hitesh",
+#     "age" : 20,
+#     "city" : "jaipur"
+# }
+# print(dict)
+
+# #Q-2
+# print(dict["name"])
+
+# #Q-3
+# dict["course"] = "BTech"
+# print(dict)
+
+# #Q-4
+# dic = {}
+
+# for ch in dict:
+#     if ch in dic:
+#         dic[ch] += 1
+#     else:
+#         dic[ch] = 1
+        
+# print(dic)
+
+#Q-5
