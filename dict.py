@@ -316,7 +316,7 @@
 
 
 
-##===Question===
+# #===Question===
 # #Q-1-baisc
 # dict = {
 #     "name" : "Hitesh",
@@ -373,8 +373,8 @@
 # student["students"].pop("name_1")
 # print(student)
 
-#Q-8-hard
-# Build a menu-driven student record system (add/search/delete/display).
+# # Q-8-hard
+# # Build a menu-driven student record system (add/search/delete/display).
 # student = {}
 
 # number_of_studnet = int(input("Enter the number of studnets(e.g. student1, student2.... : )"))
