@@ -68,7 +68,7 @@
 
 
 #===Q-4===
-# 4. Create a function calculator() that displays the following menu:
+# Create a function calculator() that displays the following menu:
 
    
 #    1. Addition
@@ -174,6 +174,8 @@
 
 
 # calculator()
+
+
 
 # Create a function calculator() that displays
 #===Q-6===
