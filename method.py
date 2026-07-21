@@ -11,7 +11,8 @@
 # display(input("Enter your message: "), int(input("How many times? :  ")))
 
 
-#Q-1
+
+#===Q-1===
 # def greet():
 #     print("Welcome to Python Programming")
 
@@ -21,13 +22,17 @@
 # greet()
 # greet()
 
-#Q-2
+
+
+#===Q-2===
 # def square():
 #     print(13 ** 2)
     
 # square()
 
-#Q-3
+
+
+#===Q-3===
 #This Menu-driven Program
 
 # while True:
@@ -60,7 +65,9 @@
 #     else:
 #         print("Invalid choice....")
 
-#Q-4
+
+
+#===Q-4===
 # 4. Create a function calculator() that displays the following menu:
 
    
@@ -72,98 +79,113 @@
 
 #    Then call the function.
 
-def calculator():
-    while True:
-        print("1. Addition")
-        print("2. Substraction")
-        print("3. Multiplication")
-        print("4. Division")
-        print("5. Exit")
+# def calculator():
+#     while True:
+#         print("1. Addition")
+#         print("2. Substraction")
+#         print("3. Multiplication")
+#         print("4. Division")
+#         print("5. Exit")
         
-        cal = int(input("Enter the number and calculate numbers : "))
+#         cal = int(input("Enter the number and calculate numbers : "))
         
-        if cal == 1:
-            number_1 = int(input("Enter the number : "))
-            number_2 = int(input("Enter the number : "))
-            print(number_1 + number_2)
+#         if cal == 1:
+#             number_1 = int(input("Enter the number : "))
+#             number_2 = int(input("Enter the number : "))
+#             print(number_1 + number_2)
             
-        elif cal == 2:
-            number_1 = int(input("Enter the number : "))
-            number_2 = int(input("Enter the number : "))
-            print(number_1 - number_2)
+#         elif cal == 2:
+#             number_1 = int(input("Enter the number : "))
+#             number_2 = int(input("Enter the number : "))
+#             print(number_1 - number_2)
             
-        elif cal == 3:
-            number_1 = int(input("Enter the number : "))
-            number_2 = int(input("Enter the number : "))
-            print(number_1 * number_2)
+#         elif cal == 3:
+#             number_1 = int(input("Enter the number : "))
+#             number_2 = int(input("Enter the number : "))
+#             print(number_1 * number_2)
             
-        elif cal == 4:
-            number_1 = int(input("Enter the number : "))
-            number_2 = int(input("Enter the number : "))
-            print(number_1 / number_2)
+#         elif cal == 4:
+#             number_1 = int(input("Enter the number : "))
+#             number_2 = int(input("Enter the number : "))
+#             print(number_1 / number_2)
             
-        elif cal == 5:
-            print("Exit this Program")
-            break
+#         elif cal == 5:
+#             print("Exit this Program")
+#             break
         
-        else:
-            print("Invalid number..Please Try Again....")
+#         else:
+#             print("Invalid number..Please Try Again....")
 
 
-calculator()
+# calculator()
 
 
 
-#Q-5
-def calculator():
-    while True:
-        print("1. Addition")
-        print("2. Substraction")
-        print("3. Multiplication")
-        print("4. Division")
-        print("5. Exit")
+#===Q-5===
+# def calculator():
+#     while True:
+#         print("1. Addition")
+#         print("2. Substraction")
+#         print("3. Multiplication")
+#         print("4. Division")
+#         print("5. Exit")
         
-        number_1 = float(input("Enter first number : "))
-        number_2 = float(input("Enter second number : "))
+#         number_1 = float(input("Enter first number : "))
+#         number_2 = float(input("Enter second number : "))
         
-        def addition(num1, num2):
-            return num1 + num2
+#         def addition(num1, num2):
+#             return num1 + num2
         
-        def subtraction(num1, num2):
-            return num1 - num2
+#         def subtraction(num1, num2):
+#             return num1 - num2
         
-        def multiplication(num1, num2):
-            return num1 * num2
+#         def multiplication(num1, num2):
+#             return num1 * num2
             
-        def division(num1, num2):
-            if num2 == 0:
-                return "Cannot divide by zero."
-            else:
-                return num1 / num2
+#         def division(num1, num2):
+#             if num2 == 0:
+#                 return "Cannot divide by zero."
+#             else:
+#                 return num1 / num2
                 
-        cal = int(input("Enter your choice : "))
+#         cal = int(input("Enter your choice : "))
         
-        if cal == 1:
-            result = addition(number_1, number_2)
-            print(result)
+#         if cal == 1:
+#             result = addition(number_1, number_2)
+#             print(result)
            
-        elif cal == 2:
-           result = subtraction(number_1, number_2)
-           print(result)
+#         elif cal == 2:
+#            result = subtraction(number_1, number_2)
+#            print(result)
            
-        elif cal == 3:
-            result = multiplication(number_1, number_2)
-            print(result)
+#         elif cal == 3:
+#             result = multiplication(number_1, number_2)
+#             print(result)
             
-        elif cal == 4:
-            result = division(number_1, number_2)
-            print(result)
+#         elif cal == 4:
+#             result = division(number_1, number_2)
+#             print(result)
             
-        elif cal == 5:
-            print("Exiting...")
-            break
-        else:
-            print("Invalid number..Please Try Again....")
+#         elif cal == 5:
+#             print("Exiting...")
+#             break
+#         else:
+#             print("Invalid number..Please Try Again....")
 
 
-calculator()
+# calculator()
+
+# Create a function calculator() that displays
+#===Q-6===
+def student():
+    print("Name",":","Hitesh")
+
+def course():
+    print("Course",":","Python")
+
+def college():
+    print("College",":","Poornima University")
+    
+student()
+course()
+college()
