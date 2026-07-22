@@ -179,15 +179,15 @@
 
 
 #===Q-6===
-def student():
-    print("Name",":","Hitesh")
+# def student():
+#     print("Name",":","Hitesh")
 
-def course():
-    print("Course",":","Python")
+# def course():
+#     print("Course",":","Python")
 
-def college():
-    print("College",":","Poornima University")
+# def college():
+#     print("College",":","Poornima University")
     
-student()
-course()
-college()
+# student()
+# course()
+# college()
