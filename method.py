@@ -177,7 +177,7 @@
 
 
 
-# Create a function calculator() that displays
+
 #===Q-6===
 def student():
     print("Name",":","Hitesh")
