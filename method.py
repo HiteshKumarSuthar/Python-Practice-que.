@@ -1,16 +1,16 @@
 ##===METHODS(Function)===
 
-def display(text, times):
+# def display(text, times):
     
-    if text == "Welcome to python program" or text == "Exit this program":
-        for i in range(1, times+1):
-            print(i,".",text)
+#     if text == "Welcome to python program" or text == "Exit this program":
+#         for i in range(1, times+1):
+#             print(i,".",text)
             
-    else:
-        print(f"{text} is not accepted!")
+#     else:
+#         print(f"{text} is not accepted!")
         
 
-display(input("Enter your message: "), int(input("How many times? :  ")))
+# display(input("Enter your message: "), int(input("How many times? :  ")))
 
 
 
