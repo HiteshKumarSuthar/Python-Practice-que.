@@ -1,14 +1,16 @@
-# def display(text, times):
+##===METHODS(Function)===
+
+def display(text, times):
     
-#     if text == "I love you" or text == "Sorry":
-#         for i in range(1, times+1):
-#             print(i,".",text)
+    if text == "Welcome to python program" or text == "Exit this program":
+        for i in range(1, times+1):
+            print(i,".",text)
             
-#     else:
-#         print(f"{text} is not accepted!")
+    else:
+        print(f"{text} is not accepted!")
         
 
-# display(input("Enter your message: "), int(input("How many times? :  ")))
+display(input("Enter your message: "), int(input("How many times? :  ")))
 
 
 
@@ -191,3 +193,4 @@
 # student()
 # course()
 # college()
+
