@@ -212,3 +212,45 @@
         
 # table(int(input("Enter the number : ")))
 
+
+
+
+##===Create a ATM machine in python===
+
+def atm():
+    
+    balance = 1000.0
+    
+    while True:
+        
+        print("1. Show Balance")
+        print("2. Deposit Money")
+        print("3. Withdraw Money")
+        print("4. Exit")
+        
+        n = int(input("Enter the n : "))
+        
+        if n == 1:
+            # acc_balance = float(input("Enter the balance : "))
+            # balance += acc_balance
+            print("Welcome to SBI Bank ATM","\nYour Account Balance :", balance)
+            
+        elif n == 2:
+            acc_balance = float(input("Enter the deposit balance : "))
+            balance += acc_balance
+            print("Dear Customer, A/c XXXXXX1234 debited for Rs", balance)
+        
+        elif n == 3:
+            acc_balance = float(input("Enter the withdraw money : "))
+            balance -= acc_balance
+            print("Current Balance :", balance)
+
+        elif n == 4:
+            print("Transaction has completed...\nThank you visit again !!")
+            break
+        
+        else:
+            print("Incorrect value")
+            
+            
+atm()
