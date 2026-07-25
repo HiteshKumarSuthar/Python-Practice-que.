@@ -261,75 +261,68 @@
 
 ##===2. ATM machine in python (Verification system integration)===
 
-def ATM():
+# def ATM():
     
-    balance = 1000.0
+#     balance = 1000.0
     
-    MPIN = int(input("Enter your MPIN : "))
+#     MPIN = int(input("Enter your MPIN : "))
     
-    username = input("Enter your username: ")
-    password = int(input("Create your password: "))
+#     username = input("Enter your username: ")
+#     password = int(input("Create your password: "))
     
-    user = {}
+#     user = {}
     
-    user[username] = {
-        "Password": password
-    }
+#     user[username] = {
+#         "Password": password
+#     }
     
-    print(user)
+#     print(user)
     
-    choice = input("Do you want to login?(Y/N): ")
+#     choice = input("Do you want to login?(Y/N): ")
     
-    if choice == "y" or choice == "Y":
-        login_username = input("Username: ")
-        login_password = int(input("Password: "))
+#     if choice == "y" or choice == "Y":
+#         login_username = input("Username: ")
+#         login_password = int(input("Password: "))
         
-        for key, value in user.items():
-            if login_username == username and login_password == password:
-                print("Logged in successfully, WELCOME")
-                while True:
+#         for key, value in user.items():
+#             if login_username == username and login_password == password:
+#                 print("Logged in successfully, WELCOME")
+#                 while True:
                                     
-                            print("1. Show Balance")
-                            print("2. Deposit Money")
-                            print("3. Withdraw Money")
-                            print("4. Exit")
+#                             print("1. Show Balance")
+#                             print("2. Deposit Money")
+#                             print("3. Withdraw Money")
+#                             print("4. Exit")
                                     
-                            option = int(input("Choose a option any one : "))
+#                             option = int(input("Choose a option any one : "))
                                     
-                            if option == 1:
-                            # acc_balance = float(input("Enter the balance : "))
-                            # balance += acc_balance
-                                print("Welcome to SBI Bank ATM","\nYour Account Balance :", balance)
+#                             if option == 1:
+#                             # acc_balance = float(input("Enter the balance : "))
+#                             # balance += acc_balance
+#                                 print("Welcome to SBI Bank ATM","\nYour Account Balance :", balance)
                                         
-                            elif option == 2:
-                                acc_balance = float(input("Enter the deposit balance : "))
-                                balance += acc_balance
-                                print("Dear Customer, A/c XXXXXX1234 debited for Rs", balance)
+#                             elif option == 2:
+#                                 acc_balance = float(input("Enter the deposit balance : "))
+#                                 balance += acc_balance
+#                                 print("Dear Customer, A/c XXXXXX1234 debited for Rs", balance)
                                     
-                            elif option == 3:
-                                acc_balance = float(input("Enter the withdraw money : "))
-                                balance -= acc_balance
-                                print("Current Balance :", balance)
+#                             elif option == 3:
+#                                 acc_balance = float(input("Enter the withdraw money : "))
+#                                 balance -= acc_balance
+#                                 print("Current Balance :", balance)
                             
-                            elif option == 4:
-                                print("Transaction has completed...\nThank you visit again !!")
-                                break
+#                             elif option == 4:
+#                                 print("Transaction has completed...\nThank you visit again !!")
+#                                 break
                                     
-                            else:
-                                print("Incorrect value")  
-            else:
-                print("Invalid username or password!")
+#                             else:
+#                                 print("Incorrect value")  
+#             else:
+#                 print("Invalid username or password!")
                 
     
                                 
-ATM()
-
-
-
-
-
-
-
+# ATM()
 
 
 
@@ -342,7 +335,7 @@ ATM()
 #     "Password": password
 # }
 
-# choice = input("Do you want to login?(y/N): ")
+# choice = input("Do you want to login?(Y/y) | (N/n): ")
 
 # if choice == "y" or choice == "Y":
 #     login_username = input("Username: ")
@@ -365,18 +358,20 @@ ATM()
 
 
 
-# banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RGB"]
+banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RGB"]
 
-# input_bank = input("Enter your bank: ")
-# new_bank = input_bank.upper()
+input_bank = input("Enter your bank: ")
+new_bank = input_bank.upper()
 
-# for each in banks:
-#     if new_bank == each:
-#         print(f"WELCOME TO {new_bank}!")
+for each in banks:
+    if new_bank == each:
+        print(f"WELCOME TO {new_bank}!")
         
-#     else:
-#         print("Bank not found.")
-#         print("\nAvailable banks: ")
-#         new_banks = ", ".join(banks)
-#         print(new_banks)
-#         break
+    else:
+        print("Bank not found.")
+        print("\nAvailable banks: ")
+        new_banks = ", ".join(banks)
+        print(new_banks)
+        break
+    
+    
