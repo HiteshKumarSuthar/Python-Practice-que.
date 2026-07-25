@@ -261,7 +261,7 @@
 
 ##===2. ATM machine in python (Verification system integration)===
 
-def atm():
+def ATM():
     
     balance = 1000.0
     
@@ -322,7 +322,7 @@ def atm():
                 
     
                                 
-atm()
+ATM()
 
 
 
