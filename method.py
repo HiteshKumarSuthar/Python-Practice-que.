@@ -357,7 +357,7 @@
 
 
 
-banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RGB"]
+banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RMGB"]
 
 input_bank = input("Enter your bank: ")
 new_bank = input_bank.upper()
