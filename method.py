@@ -357,20 +357,19 @@
 
 
 
-banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RMGB"]
+# banks = ["SBI", "AXIS", "HDFC", "ICICI", "PNB", "CANARA", "RMGB"]
 
-input_bank = input("Enter your bank: ")
-new_bank = input_bank.upper()
+# input_bank = input("Enter your bank: ")
+# new_bank = input_bank.upper()
 
-for each in banks:
-    if new_bank == each:
-        print(f"WELCOME TO {new_bank}!")
+# for each in banks:
+#     if new_bank == each:
+#         print(f"WELCOME TO {new_bank}!")
         
-    else:
-        print("Bank not found.")
-        print("\nAvailable banks: ")
-        new_banks = ", ".join(banks)
-        print(new_banks)
-        break
-    
+#     else:
+#         print("Bank not found.")
+#         print("\nAvailable banks: ")
+#         new_banks = ", ".join(banks)
+#         print(new_banks)
+#         break
     
