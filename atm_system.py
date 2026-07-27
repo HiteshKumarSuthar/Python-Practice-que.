@@ -9,7 +9,7 @@ def ATM():
     while True:
         
         print("1. Show Balance")
-        print("2. Deposit Money")
+        print("2. Credited Money")
         print("3. Withdraw Money")
         print("4. Exit")
         
@@ -21,9 +21,9 @@ def ATM():
             print("Welcome to SBI Bank ATM","\nYour Account Balance :", balance)
             
         elif n == 2:
-            acc_balance = float(input("Enter the deposit balance : "))
+            acc_balance = float(input("Enter the credited balance : "))
             balance += acc_balance
-            print("Dear Customer, A/c XXXXXX1234 debited for Rs", balance)
+            print("Dear Customer, A/c XXXXXX1234 credited for Rs", balance)
         
         elif n == 3:
             acc_balance = float(input("Enter the withdraw money : "))
@@ -73,7 +73,7 @@ def ATM():
                 while True:
                                     
                             print("1. Show Balance")
-                            print("2. Deposit Money")
+                            print("2. Credited Money")
                             print("3. Withdraw Money")
                             print("4. Exit")
                                     
@@ -85,9 +85,9 @@ def ATM():
                                 print("Welcome to SBI Bank ATM","\nYour Account Balance :", balance)
                                         
                             elif option == 2:
-                                acc_balance = float(input("Enter the deposit balance : "))
+                                acc_balance = float(input("Enter the credited balance : "))
                                 balance += acc_balance
-                                print("Dear Customer, A/c XXXXXX1234 debited for Rs", balance)
+                                print("Dear Customer, A/c XXXXXX1234 credited for Rs", balance)
                                     
                             elif option == 3:
                                 acc_balance = float(input("Enter the withdraw money : "))
