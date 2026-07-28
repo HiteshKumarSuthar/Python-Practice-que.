@@ -67,3 +67,19 @@
 # highest_even([1, 3, 5])
 # # Output: No Even Number
 
+
+def highest_even(lst):
+    lst = [5, 2, 9, 12, 7, 18]
+    
+    highest_even_num = None
+    for i in lst:
+        if i % 2 == 0:
+            if highest_even_num is None or i > highest_even_num:
+                highest_even_num = i
+    return highest_even_num
+
+
+lst = [5, 2, 9, 12, 7, 18]
+result = highest_even(lst)
+print("Highest Even Number :", result)
+
