@@ -82,4 +82,3 @@ def highest_even(lst):
 lst = [5, 2, 9, 12, 7, 18]
 result = highest_even(lst)
 print("Highest Even Number :", result)
-
