@@ -102,5 +102,3 @@
 # except IndexError:
 #     print("IndexError: list index out of range")
 
-
-
