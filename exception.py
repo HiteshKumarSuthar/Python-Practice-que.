@@ -1,4 +1,6 @@
 ##===Exception Handling===
+
+## ValueError
 # try:
 #     num = int(input("Enter a number: "))
 #     print(num)
@@ -9,6 +11,9 @@
 # finally:
 #     print("Program executed successfully!!!")
 
+
+
+## ZeroDivisionError and ValueError
 # try:
 #     num1 = int(input("Enter number1: "))
 #     num2 = int(input("Enter number2: "))
@@ -30,8 +35,11 @@
 # with open("abc.py", "r") as file:
 #     content = file.read()
 #     print(content)
-    
+
+
+
 ##===File write and read using exception handiling===
+## FileNotFoundError
 # try:
 #     with open("hitesh.txt", "w") as file:
 #         file.write("Hitesh Kumar suthar")
@@ -45,16 +53,54 @@
 # finally:
 #     print("Succesfully run")
     
-
-try:
-    with open("hitesh.txt", "w+") as file:
-        file.write("Hitesh Kumar suthar")
-        file.seek(0)
-        print(file.read())
     
-except FileNotFoundError:
-    print("File does not exist in your folder")
-
-finally:
-    print("Succesfully run")
+# try:
+#     with open("hitesh.txt", "w+") as file:
+#         file.write("Hitesh Kumar suthar")
+#         file.seek(0)
+#         print(file.read())
     
+# except FileNotFoundError:
+#     print("File does not exist in your folder")
+
+# finally:
+#     print("Succesfully run")
+    
+
+## SyntaxError
+# try:
+#     if 5 > 2
+#         print("Hello")
+
+# except SyntaxError:
+#     print("SyntaxError")
+
+
+## Runtime Error
+# try:
+#     a = 10
+#     b = 0
+#     print(a / b)
+
+# except RuntimeError:
+#     print("ZeroDivisionError: division by zero") 
+        
+
+## NameError
+# try:
+#     print(x)
+
+# except NameError:
+#     print("NameError: name 'x' is not defined")
+
+
+## IndexError
+# try:
+#     a = [10, 20, 30]
+#     print(a[6])
+
+# except IndexError:
+#     print("IndexError: list index out of range")
+
+
+
