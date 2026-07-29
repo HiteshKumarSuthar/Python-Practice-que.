@@ -125,18 +125,18 @@
 # # Output: 3
 
 
-def word_frequency(sentence, word):
-    words = sentence.lower().replace(".", "").split()
+# def word_frequency(sentence, word):
+#     words = sentence.lower().replace(".", "").split()
 
-    count = 0
+#     count = 0
 
-    for i in words:
-        if i == word.lower():
-            count += 1
+#     for i in words:
+#         if i == word.lower():
+#             count += 1
 
-    return count
+#     return count
 
-result = word_frequency("Python is easy. python is powerful. PYTHON rocks", "python")
+# result = word_frequency("Python is easy. python is powerful. PYTHON rocks", "python")
 
-print(result)
+# print(result)
 
