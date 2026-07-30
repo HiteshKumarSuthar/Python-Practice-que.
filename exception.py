@@ -1,4 +1,7 @@
 ##===Exception Handling===
+## Syntax Error → Code is written incorrectly, so Python can't start it.
+## Runtime Error (Exception) → Code starts running but crashes while executing.
+## Logical Error → Code runs successfully, but gives the wrong answer.
 
 ## ValueError
 # try:
@@ -101,4 +104,102 @@
 
 # except IndexError:
 #     print("IndexError: list index out of range")
+
+
+## TypeError
+# try:
+#     a = ("11" + 5)
+#     print(a)
+# except TypeError:
+#     print("TypeError")
+    
+
+## KeyError
+# try:
+#     student = {"name" : "Python"}
+#     print(student["age"])
+# except KeyError:
+#     print("KeyError")
+
+
+## AttributeError
+# try:
+#     a = 10
+#     a.append(5)
+#     print(a)
+# except AttributeError:
+#     print("AttributeError")
+    
+
+## ModuleNotFoundError
+# try:
+#     import mymoodule
+
+# except ModuleNotFoundError:
+#     print("ModuleNotFoundError")
+
+
+## ImportError
+# try:
+#     from math import square
+
+# except ImportError:
+#     print("ImportError")
+
+
+## OverflowError
+# try:
+#     import math
+#     print(math.exp(1000))
+# except OverflowError:
+#     print("OverflowError")
+
+
+## MemoryError
+# try:
+#     a = [1] * (10**20)
+    
+# except MemoryError:
+#     print("MemoryError")
+
+
+## RecursionError
+# try:
+#     def fun():
+#         fun()
+        
+#     fun()
+    
+# except RecursionError:
+#     print("RecursionError")
+
+
+## KeyboardInterrupt
+# try:
+#     while True:
+#         pass
+
+# except KeyboardInterrupt:
+#     print("KeyboardInterrupt")
+
+
+## AssertionError
+# try:
+#     x = 5
+#     assert x > 10
+    
+# except AssertionError:
+#     print("AssertionError")
+
+
+## StopIteration
+# try:
+#     nums = iter([1])
+
+#     print(next(nums))
+#     print(next(nums))
+    
+# except StopIteration:
+#     print("StopIteration")
+    
 
