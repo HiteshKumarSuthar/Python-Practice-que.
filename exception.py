@@ -203,3 +203,25 @@
 #     print("StopIteration")
     
 
+with open("movies.txt", "w+") as file:
+    file.write("Learning Python is enjoyable because it helps solve real problems through simple code. Every practice session improves logical thinking, debugging skills, and confidence. Reading files, writing data, handling exceptions, and creating projects build practical experience. Consistent effort each day leads to stronger programming knowledge and better career opportunities.")
+    file.seek(0)
+    content = file.read()
+
+content_words = content.split()
+
+# print(content_words)
+
+vowels = "aeiouAEIOU"
+
+for each in content_words:
+   for word in each.split():
+       for ch in word:
+           if ch in vowels:
+               print(each)
+               break
+           
+           
+# Modify this program and implement the feature to count words of file content which are contained any vowel inside themselves.
+
+
