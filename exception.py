@@ -220,8 +220,8 @@ for each in content_words:
            if ch in vowels:
                print(each)
                break
-           
-           
+
+
 # Modify this program and implement the feature to count words of file content which are contained any vowel inside themselves.
 
 
