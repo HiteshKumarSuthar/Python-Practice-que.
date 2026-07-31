@@ -213,15 +213,14 @@ content_words = content.split()
 # print(content_words)
 
 vowels = "aeiouAEIOU"
-
+count = 0
 for each in content_words:
    for word in each.split():
        for ch in word:
            if ch in vowels:
                print(each)
+               count += 1 
                break
 
-
-# Modify this program and implement the feature to count words of file content which are contained any vowel inside themselves.
-
+print("Total vowels is :", count)
 
