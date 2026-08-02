@@ -202,4 +202,9 @@
 # except StopIteration:
 #     print("StopIteration")
     
-    
+# try:
+#     num = int(input("Enter : "))
+#     print(100 / num)
+# except:
+#     print("wrong input")
+
