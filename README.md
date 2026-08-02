@@ -4,9 +4,24 @@ Welcome to this repository! This collection contains practice questions designed
 
 ## 📚 Topics Covered
 
-* 🔹 If-Else Conditional Statements
-* 🔹 Loops (`for` & `while`)
-* 🔹 Strings
+* 🔹 Variable
+* 🔹 Data Types
+* 🔹 Input & Output
+* 🔹 Type Conversion
+* 🔹 Operators
+* 🔹 Conditional Statement (if-else, elif)
+* 🔹 Loops (for, while)
+* 🔹 String
+* 🔹 List
+* 🔹 Sets
+* 🔹 Dictionaries
+* 🔹 Methods (function => Built-in & User-defined)
+* 🔹 Scope (global & local)
+* 🔹 Exception Handling
+* 🔹 Modules
+* 🔹 File Handling
+* 🔹 Oops
+
 
 ## 🎯 Purpose
 
