@@ -58,5 +58,29 @@
 
 
 
+## Input from user and write & read content in file.
+
+con = list(map(str, input("Enter content : ").split(",")))
+
+with open("movies.txt", "w+") as file:
+    file.writelines(con)
+    file.seek(0)
+    content = file.read()
+    
+print("Content has been stored successfully...")
 
 
+
+print("1. Write content to the file [YES]")
+print("2. Exit without writing [NO]")
+    
+choice = int(input("Enter your choice : "))
+
+if choice == 1:
+    print(content)
+    print("Data written to file successfully. Data read from file successfully.")
+elif choice == 2:
+    print("Nothing to read and write.")
+else:
+    print("Invalid choice")
+    
