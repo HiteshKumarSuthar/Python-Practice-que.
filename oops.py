@@ -1,4 +1,4 @@
-##Q-1
+#Q-1
 
 # class Student:
     
@@ -14,7 +14,7 @@
 # n.display()
 
 
-##Q-2
+#Q-2
 
 # class car:
 #     def __init__(self, brand, model):
@@ -30,7 +30,7 @@
 # cars.display()
 
 
-##Q-3
+#Q-3
 
 # class faculty:
 #     def __init__(self, name, course):
@@ -45,22 +45,87 @@
 # fac.display()
 
 
-##Q-4
-class Students:
-    def __init__(self, name, address):
-        self.Name = name
-        self.Address = address
+# #Q-4
+# class Students:
+#     def __init__(self, name, address):
+#         self.Name = name
+#         self.Address = address
 
-    def display(self):
-        print(self.Name, "-", self.Address)
+#     def display(self):
+#         print(self.Name, "-", self.Address)
         
-students = []
-students.append(Students("NAME", "ADDRESS"))
-students.append(Students("Hitesh", "Jaipur"))
-students.append(Students("Suresh", "Delhi"))
-students.append(Students("Chirag", "Noida"))
-students.append(Students("Rohan", "Pune"))
+# students = []
+# students.append(Students("NAME", "ADDRESS"))
+# students.append(Students("Hitesh", "Jaipur"))
+# students.append(Students("Suresh", "Delhi"))
+# students.append(Students("Chirag", "Noida"))
+# students.append(Students("Rohan", "Pune"))
 
-for student in students:
-    student.display()
+# for student in students:
+#     student.display()
+
+
+##Q-5
+# class University:
+#     name = input("Please Enter your name : ")
+#     age = int(input("Enter your age : "))
     
+#     def addmission(name, age):
+#         print(name)
+#         print(age)
+        
+#     def display():
+#         print("Your Addmission is Successfully!!!")
+
+
+# add = University()
+# University.display()
+
+
+## Inheritance - Single Inheritance
+## Base class (Parent class) = 1
+## Child class (Derived Class) = 1
+
+# class Animal: # Parent Class
+#     def sounds(self):
+#         print("Animal makes sound.")
+        
+    
+# class Dog(Animal): # Derived Class
+#     def sounds(self):
+#         print("Dog barks.")
+#     # pass
+
+
+# d = Dog() # d is object
+# d.sounds() # Output: Animal makes sound.
+
+
+##Q-6
+# class Animal():
+#     def display(self):
+#         print("Bull Dog")
+    
+# class Dog(Animal):
+#     def bark(self):
+#         print("Woof! Woof!")
+        
+
+# d = Dog()
+# d.display()
+# d.bark()
+
+
+##Q-7
+# class Person():
+#     def show_name(self):
+#         print("Name - Suresh")
+        
+# class Student(Person):
+#     def show_details(self):
+#         print("Roll no. :", 1234)
+        
+
+# s = Student()
+# s.show_name()
+# s.show_details()
