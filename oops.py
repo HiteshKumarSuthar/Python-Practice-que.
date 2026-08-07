@@ -129,3 +129,25 @@
 # s = Student()
 # s.show_name()
 # s.show_details()
+
+
+##Q-8
+class vehicle():
+    def vehicle_brand(self):
+        print("Brand - Hyundai")
+        print("Brand - Hyundai")
+        print("Brand - Hyundai")
+        print("Brand - Hyundai")
+        
+class vehicle_model(vehicle):
+    def model(self):
+        print("Model - i20")
+        print("Model - i10")
+        print("Model - creata")
+        print("Model - venue")
+        
+v = vehicle_model()
+v.vehicle_brand()
+v.model()
+
+
