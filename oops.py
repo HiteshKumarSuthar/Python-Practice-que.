@@ -152,29 +152,29 @@
 
 
 ##Q-9
-class account():
-    def __init__(self, acc_number, balance):
-        self.balance = balance
-        self.acc_number = acc_number
+# class account():
+#     def __init__(self, acc_number, balance):
+#         self.balance = balance
+#         self.acc_number = acc_number
         
-class saving_acc(account):
-    def deposit(self, amount):
-        self.balance += amount
+# class saving_acc(account):
+#     def deposit(self, amount):
+#         self.balance += amount
         
-    def withdraw(self, amount):
-        if amount <= self.balance:
-            self.balance -= amount
-        else:
-            print("Insufficient balance")
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#         else:
+#             print("Insufficient balance")
 
-    def display(self):
-        print("Account Number : ", self.acc_number)
-        print("Balance : ", self.balance)
+#     def display(self):
+#         print("Account Number : ", self.acc_number)
+#         print("Balance : ", self.balance)
         
-acc = saving_acc(1234, 5000)
-acc.deposit(2000)
-acc.display()
-acc.withdraw(1000)
-acc.display()
+# acc = saving_acc(1234, 5000)
+# acc.deposit(2000)
+# acc.display()
+# acc.withdraw(1000)
+# acc.display()
     
     
