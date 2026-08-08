@@ -382,3 +382,17 @@
 # print("First character :", char[0])
 # print("Last character :", char[5])
 
+
+
+## Calculate base salary program
+
+# basic = int(input("Enter the basic : "))    
+# tax = int(input("Enter the tax : "))
+
+# hra = basic * tax / 100
+
+# DA = int(input("Enter the DA : "))
+
+# add = hra + DA
+
+# print("Total Net Salary : ", add)
