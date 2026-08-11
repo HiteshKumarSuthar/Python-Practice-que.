@@ -181,51 +181,50 @@
 
 # ## Employee Management System
 
-# class Person():
-#     def __init__(self, name, age):
-#         self.Name = name
-#         self.Age = age
+class Person():
+    def __init__(self, name, age):
+        self.Name = name
+        self.Age = age
 
-#     def display(self):
-#         print("Name :", self.Name)
-#         print("Age :", self.Age)
+    def display(self):
+        print("Name :", self.Name)
+        print("Age :", self.Age)
             
             
-# class Employee(Person):
-#     def __init__(self, name, age, employee_id, salary):
-#         super().__init__(name, age)
-#         self.Employee_id = employee_id
-#         self.salary = salary
+class Employee(Person):
+    def __init__(self, name, age, employee_id, salary):
+        super().__init__(name, age)
+        self.Employee_id = employee_id
+        self.salary = salary
         
-#     def display_1(self):
-#         print("Employee_id :", self.Employee_id)
-#         print("Salary :", self.salary)
+    def display_1(self):
+        print("Employee_id :", self.Employee_id)
+        print("Salary :", self.salary)
             
-# class Manager(Employee):
-#     def __init__(self, name, age, employee_id, salary, department, bonus):
-#         super().__init__(name, age, employee_id, salary)
-#         self.Dept = department
-#         self.bonus = bonus
+class Manager(Employee):
+    def __init__(self, name, age, employee_id, salary, department, bonus):
+        super().__init__(name, age, employee_id, salary)
+        self.Dept = department
+        self.bonus = bonus
         
     
-#     def display_2(self):
-#         print("Department :", self.Dept)
-#         print("Bonus :", self.bonus)
-#         final_salary = self.salary + self.bonus
-#         print("\nFinal Salary with bonus :", final_salary)
+    def display_2(self):
+        print("Department :", self.Dept)
+        print("Bonus :", self.bonus)
+        final_salary = self.salary + self.bonus
+        print("\nFinal Salary with bonus :", final_salary)
         
         
-# p = Person("Hitesh", 20)
-# p.display()
+p = Person("Hitesh", 20)
+p.display()
 
-# print()
+print()
 
-# e = Employee("Hitesh", 20, 101, 50000)
-# e.display_1()
+e = Employee("Hitesh", 20, 101, 50000)
+e.display_1()
 
-# print()
+print()
 
-# m = Manager("Hitesh", 20, 101, 50000, "IT", 15000)
-# m.display_2()
-
+m = Manager("Hitesh", 20, 101, 50000, "IT", 15000)
+m.display_2()
 
