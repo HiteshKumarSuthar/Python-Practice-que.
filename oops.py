@@ -181,50 +181,102 @@
 
 # ## Employee Management System
 
-class Person():
-    def __init__(self, name, age):
-        self.Name = name
-        self.Age = age
+# class Person():
+#     def __init__(self, name, age):
+#         self.Name = name
+#         self.Age = age
 
-    def display(self):
-        print("Name :", self.Name)
-        print("Age :", self.Age)
+#     def display(self):
+#         print("Name :", self.Name)
+#         print("Age :", self.Age)
             
             
-class Employee(Person):
-    def __init__(self, name, age, employee_id, salary):
-        super().__init__(name, age)
-        self.Employee_id = employee_id
-        self.salary = salary
+# class Employee(Person):
+#     def __init__(self, name, age, employee_id, salary):
+#         super().__init__(name, age)
+#         self.Employee_id = employee_id
+#         self.salary = salary
         
-    def display_1(self):
-        print("Employee_id :", self.Employee_id)
-        print("Salary :", self.salary)
+#     def display_1(self):
+#         print("Employee_id :", self.Employee_id)
+#         print("Salary :", self.salary)
             
-class Manager(Employee):
-    def __init__(self, name, age, employee_id, salary, department, bonus):
-        super().__init__(name, age, employee_id, salary)
-        self.Dept = department
-        self.bonus = bonus
+# class Manager(Employee):
+#     def __init__(self, name, age, employee_id, salary, department, bonus):
+#         super().__init__(name, age, employee_id, salary)
+#         self.Dept = department
+#         self.bonus = bonus
         
     
-    def display_2(self):
-        print("Department :", self.Dept)
-        print("Bonus :", self.bonus)
-        final_salary = self.salary + self.bonus
-        print("\nFinal Salary with bonus :", final_salary)
+#     def display_2(self):
+#         print("Department :", self.Dept)
+#         print("Bonus :", self.bonus)
+#         final_salary = self.salary + self.bonus
+#         print("\nFinal Salary with bonus :", final_salary)
         
         
-p = Person("Hitesh", 20)
-p.display()
+# p = Person("Hitesh", 20)
+# p.display()
 
-print()
+# print()
 
-e = Employee("Hitesh", 20, 101, 50000)
-e.display_1()
+# e = Employee("Hitesh", 20, 101, 50000)
+# e.display_1()
 
-print()
+# print()
 
-m = Manager("Hitesh", 20, 101, 50000, "IT", 15000)
-m.display_2()
+# m = Manager("Hitesh", 20, 101, 50000, "IT", 15000)
+# m.display_2()
 
+
+
+# Multilevel Inheritance
+
+# class Grandfather:
+#     def house(self):
+#         print("Grandfather's house.")
+
+# class Father(Grandfather):
+#     def car(self):
+#         print("Father's car.")
+
+# class Son(Father):
+#     def bike(self):
+#         print("Son's bike.")
+
+
+# s = Son()
+
+# s.car()
+# s.bike()
+# s.house()
+
+
+
+# Multiple Inheritance
+
+# class Father:                           # Parent Class / Base Class
+#     def income(self):
+#         print("Father's income.")
+
+# class Mother:                           # Parent Class / Base Class
+#     def power(self):
+#         print("Every mother has more power.")
+
+# class Brother:                          # Parent Class / Base Class
+#     def tevar(self):
+#         print("Brother is rowdy.")
+
+# class Me(Brother, Father, Mother):      # Child Class / Derived Class
+#     def myself(self):
+#         print("I'm a good boy.")
+
+
+# c = Me()        # Child class's object
+# m = Mother()    # Parent class's object (Mother)
+# b = Brother()
+
+# c.income()
+# c.power()
+# c.tevar()
+# c.myself()
