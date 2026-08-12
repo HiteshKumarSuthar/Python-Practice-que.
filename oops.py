@@ -280,3 +280,41 @@
 # c.power()
 # c.tevar()
 # c.myself()
+
+
+
+
+## Q-1
+class Student:
+    def student(self, Name, Rollnumber):
+        self.name = Name
+        self.rollnumber = Rollnumber
+        
+        print("Name :", self.name)
+        print("Roll Number :", self.rollnumber)
+        
+        
+class Marks:
+    def student_1(self, python, java, DSA):
+        self.Python = python
+        self.Java = java
+        self.dsa = DSA
+        
+        
+        self.marks = self.Python + self.Java + self.dsa
+        print("total marks :", self.marks)
+        
+        
+class Result(Student, Marks):
+    def student_2(self):
+        avg = self.marks / 3
+        print("Average :", avg)
+        
+
+s = Result()
+
+s.student("Hitesh", 101)
+s.student_1(67, 89, 90)
+s.student_2()
+
+
