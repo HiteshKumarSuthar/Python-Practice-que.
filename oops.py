@@ -285,36 +285,67 @@
 
 
 ## Q-1
-class Student:
-    def student(self, Name, Rollnumber):
-        self.name = Name
-        self.rollnumber = Rollnumber
+# class Student:
+#     def student(self, Name, Rollnumber):
+#         self.name = Name
+#         self.rollnumber = Rollnumber
         
-        print("Name :", self.name)
-        print("Roll Number :", self.rollnumber)
-        
-        
-class Marks:
-    def student_1(self, python, java, DSA):
-        self.Python = python
-        self.Java = java
-        self.dsa = DSA
+#         print("Name :", self.name)
+#         print("Roll Number :", self.rollnumber)
         
         
-        self.marks = self.Python + self.Java + self.dsa
-        print("total marks :", self.marks)
+# class Marks:
+#     def student_1(self, python, java, DSA):
+#         self.Python = python
+#         self.Java = java
+#         self.dsa = DSA
         
         
-class Result(Student, Marks):
-    def student_2(self):
-        avg = self.marks / 3
-        print("Average :", avg)
+#         self.marks = self.Python + self.Java + self.dsa
+#         print("total marks :", self.marks)
+        
+        
+# class Result(Student, Marks):
+#     def student_2(self):
+#         avg = self.marks / 3
+#         print("Average :", avg)
         
 
-s = Result()
+# s = Result()
 
-s.student("Hitesh", 101)
-s.student_1(67, 89, 90)
-s.student_2()
+# s.student("Hitesh", 101)
+# s.student_1(67, 89, 90)
+# s.student_2()
 
 
+
+## Q-2
+
+class Employee:
+    def employee(self, name, emp_id):
+        self.Name = name
+        self.Emp_id = emp_id
+        
+        print("Employee_Name :", self.Name)
+        print("Employee_id :", self.Emp_id)
+        
+
+class Developer(Employee):
+    def developer(self, programming):
+        self.Programming = programming
+
+        print("Programming Language :", self.Programming)
+        
+        
+class Senior_developer(Developer):
+    def senior_developer(self, experience):
+        self.Experience = experience
+        
+        print("Experience :", self.Experience)
+        
+
+s = Senior_developer()
+
+s.employee("Hitesh", 102)
+s.developer("Python")
+s.senior_developer("4 Year")
