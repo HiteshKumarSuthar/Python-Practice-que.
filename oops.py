@@ -286,68 +286,78 @@
 
 ## Q-1
 # class Student:
-#     def student(self, Name, Rollnumber):
-#         self.name = Name
-#         self.rollnumber = Rollnumber
-        
-#         print("Name :", self.name)
-#         print("Roll Number :", self.rollnumber)
-        
-        
+#     def __init__(self, name, rollno):
+#         self.name = name
+#         self.rollno = rollno
+
+#     def show(self):
+#         print("Name: ", self.name)
+#         print("Rollno: ", self.rollno)
+
 # class Marks:
-#     def student_1(self, python, java, DSA):
-#         self.Python = python
-#         self.Java = java
-#         self.dsa = DSA
-        
-        
-#         self.marks = self.Python + self.Java + self.dsa
-#         print("total marks :", self.marks)
-        
-        
+#     def __init__(self, m1, m2, m3):
+#         self.m1 = m1
+#         self.m2 = m2
+#         self.m3 = m3
+
+#     def calc(self):
+#         total = self.m1 + self.m2 + self.m3
+#         return total
+
 # class Result(Student, Marks):
-#     def student_2(self):
-#         avg = self.marks / 3
-#         print("Average :", avg)
-        
+#     def __init__(self, name, rollno, m1, m2, m3):
+#         Student.__init__(self, name, rollno)
+#         Marks.__init__(self, m1, m2, m3)
 
-# s = Result()
+#     def result(self):
+#         total = self.calc()
+#         print("Total marks: ", total)
+#         avg = (total * 100) / 300
+#         print("Result: ",f"{avg:.2f}","%")
 
-# s.student("Hitesh", 101)
-# s.student_1(67, 89, 90)
-# s.student_2()
+
+# r = Result("Hitesh", 300, 90, 98, 92)
+
+# r.show()
+# r.result()
 
 
 
 ## Q-2
 class Employee:
-    def employee(self, name, emp_id):
-        self.Name = name
-        self.Emp_id = emp_id
-        
-        print("Employee_Name :", self.Name)
-        print("Employee_id :", self.Emp_id)
+    def __init__(self, emp_name, emp_id):
+        self.emp_name = emp_name
+        self.emp_id = emp_id
+
+    def show(self):
+        print("Employee Name :", self.emp_name)
+        print("Employee Id :", self.emp_id)
         
 
 class Developer(Employee):
-    def developer(self, programming):
-        self.Programming = programming
+    def __init__(self, language):
+        self.language = language
+        
+    def display(self):
+        print("Programming langauge :", self.language)
 
-        print("Programming Language :", self.Programming)
-        
-        
-class Senior_developer(Developer):
-    def senior_developer(self, experience):
+
+class Senior_Developer(Developer):
+    def __init__(self, experience):   
         self.Experience = experience
         
-        print("Experience :", self.Experience)
+    def SD(self):
+        print("Year of experience :", self.Experience)
         
 
-s = Senior_developer()
 
-s.employee("Hitesh", 102)
-s.developer("Python")
-s.senior_developer("4 Year")
+e = Employee("Hitesh", 101)
+e.show()
 
+d = Developer("Python")
+d.display()
+
+s = Senior_Developer("5 year")
+s.SD()
 
         
