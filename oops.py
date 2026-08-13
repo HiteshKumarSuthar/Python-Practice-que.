@@ -320,7 +320,6 @@
 
 
 ## Q-2
-
 class Employee:
     def employee(self, name, emp_id):
         self.Name = name
@@ -349,3 +348,6 @@ s = Senior_developer()
 s.employee("Hitesh", 102)
 s.developer("Python")
 s.senior_developer("4 Year")
+
+
+        
