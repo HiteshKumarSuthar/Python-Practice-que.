@@ -324,40 +324,72 @@
 
 
 ## Q-2
-class Employee:
-    def __init__(self, emp_name, emp_id):
-        self.emp_name = emp_name
-        self.emp_id = emp_id
+# class Employee:
+#     def __init__(self, emp_name, emp_id):
+#         self.emp_name = emp_name
+#         self.emp_id = emp_id
+
+#     def show(self):
+#         print("Employee Name :", self.emp_name)
+#         print("Employee Id :", self.emp_id)
+        
+
+# class Developer(Employee):
+#     def __init__(self, language):
+#         self.language = language
+        
+#     def display(self):
+#         print("Programming langauge :", self.language)
+
+
+# class Senior_Developer(Developer):
+#     def __init__(self, experience):   
+#         self.Experience = experience
+        
+#     def SD(self):
+#         print("Year of experience :", self.Experience)
+        
+
+
+# e = Employee("Hitesh", 101)
+# e.show()
+
+# d = Developer("Python")
+# d.display()
+
+# s = Senior_Developer("5+year")
+# s.SD()
+
+        
+
+##Que.Multiple inheritance
+
+class father:
+    def __init__(self, name):
+        self.Name = name
 
     def show(self):
-        print("Employee Name :", self.emp_name)
-        print("Employee Id :", self.emp_id)
+        print("Father name is :", self.Name)
         
+class mother:
+    def __init__(self, name1):
+        self.Name = name1
 
-class Developer(Employee):
-    def __init__(self, language):
-        self.language = language
+    def show1(self):
+        print("Mother name is :", self.Name)
+        
+class child(father, mother):
+    def __init__(self, name, name1):
+        father.__init__(self, name)
+        mother.__init__(self, name1)
         
     def display(self):
-        print("Programming langauge :", self.language)
-
-
-class Senior_Developer(Developer):
-    def __init__(self, experience):   
-        self.Experience = experience
+        print("Child name is : Rohan")
         
-    def SD(self):
-        print("Year of experience :", self.Experience)
         
+c = child("Rajesh", "Sunita")
+c.show()
+c.show1()
+c.display()
 
 
-e = Employee("Hitesh", 101)
-e.show()
-
-d = Developer("Python")
-d.display()
-
-s = Senior_Developer("5 year")
-s.SD()
-
-        
