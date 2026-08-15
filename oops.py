@@ -364,32 +364,70 @@
 
 ##Que.Multiple inheritance
 
-class father:
-    def __init__(self, name):
+# class father:
+#     def __init__(self, name):
+#         self.Name = name
+
+#     def show(self):
+#         print("Father name is :", self.Name)
+        
+# class mother:
+#     def __init__(self, name1):
+#         self.Name = name1
+
+#     def show1(self):
+#         print("Mother name is :", self.Name)
+        
+# class child(father, mother):
+#     def __init__(self, name, name1):
+#         father.__init__(self, name)
+#         mother.__init__(self, name1)
+        
+#     def display(self):
+#         print("Child name is : Rohan")
+        
+        
+# c = child("Rajesh", "Sunita")
+# c.show()
+# c.show1()
+# c.display()
+
+
+
+##Que.Multilevel inheritance
+
+class Person:
+    def __init__(self, name, age):
         self.Name = name
+        self.Age = age
 
-    def show(self):
-        print("Father name is :", self.Name)
+    def display_person(self):
+        print("Name :", self.Name)
+        print("Age :", self.Age)
         
-class mother:
-    def __init__(self, name1):
-        self.Name = name1
 
-    def show1(self):
-        print("Mother name is :", self.Name)
-        
-class child(father, mother):
-    def __init__(self, name, name1):
-        father.__init__(self, name)
-        mother.__init__(self, name1)
-        
-    def display(self):
-        print("Child name is : Rohan")
-        
-        
-c = child("Rajesh", "Sunita")
-c.show()
-c.show1()
-c.display()
+class Student(Person):
+    def __init__(self, roll_no, course):
+        self.Roll_no = roll_no
+        self.Course = course
 
+    def display_student(self):
+        print("Roll_No :", self.Roll_no)
+        print("Course :", self.Course)
+        
+class Branch(Student):
+    def __init__(self, branch):
+        self.Branch = branch
+    
+    def display_branch(self):
+        print("Branch :", self.Branch)
+        
 
+p = Person("Hitesh", 19)
+p.display_person()
+
+s = Student(1001, "BTech")
+s.display_student()
+
+b = Branch("AI & DS")
+b.display_branch()
