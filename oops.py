@@ -396,38 +396,38 @@
 
 ##Que.Multilevel inheritance
 
-class Person:
-    def __init__(self, name, age):
-        self.Name = name
-        self.Age = age
+# class Person:
+#     def __init__(self, name, age):
+#         self.Name = name
+#         self.Age = age
 
-    def display_person(self):
-        print("Name :", self.Name)
-        print("Age :", self.Age)
+#     def display_person(self):
+#         print("Name :", self.Name)
+#         print("Age :", self.Age)
         
 
-class Student(Person):
-    def __init__(self, roll_no, course):
-        self.Roll_no = roll_no
-        self.Course = course
+# class Student(Person):
+#     def __init__(self, roll_no, course):
+#         self.Roll_no = roll_no
+#         self.Course = course
 
-    def display_student(self):
-        print("Roll_No :", self.Roll_no)
-        print("Course :", self.Course)
+#     def display_student(self):
+#         print("Roll_No :", self.Roll_no)
+#         print("Course :", self.Course)
         
-class Branch(Student):
-    def __init__(self, branch):
-        self.Branch = branch
+# class Branch(Student):
+#     def __init__(self, branch):
+#         self.Branch = branch
     
-    def display_branch(self):
-        print("Branch :", self.Branch)
+#     def display_branch(self):
+#         print("Branch :", self.Branch)
         
 
-p = Person("Hitesh", 19)
-p.display_person()
+# p = Person("Hitesh", 19)
+# p.display_person()
 
-s = Student(1001, "BTech")
-s.display_student()
+# s = Student(1001, "BTech")
+# s.display_student()
 
-b = Branch("AI & DS")
-b.display_branch()
+# b = Branch("AI & DS")
+# b.display_branch()
