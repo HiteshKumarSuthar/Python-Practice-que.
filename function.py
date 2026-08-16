@@ -99,10 +99,10 @@
 
 
 ##Local & Global variable
-x = 100 # => Global variable
+x = 100   # => Global variable
 
 def show():
-    x = 50 # => Local Variable
+    x = 50   # => Local Variable
     print("Inside function :", x)
 
 show()
