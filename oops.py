@@ -431,3 +431,45 @@
 
 # b = Branch("AI & DS")
 # b.display_branch()
+
+
+
+# Question 1 — Basic Multiple Inheritance
+
+# Create three classes:
+
+# Father → method father_property()
+# Mother → method mother_property()
+# Child → inherit from both Father and Mother
+
+# Create an object of Child and call both parent methods.
+
+
+class father:
+    def __init__(self, prop):
+        self.Property = prop
+        
+    def father_property(self):
+        print("Father Property :", self.Property)
+        
+class mother:
+    def __init__(self, mother_property):
+        self.Mother_property = mother_property
+        
+    def mother_property(self):
+        print("Mother property :", self.Mother_property)
+        
+class child(father, mother):
+    def __init__(self, prop, mother_property):
+        father.__init__(self, prop)
+        mother.__init__(self, mother_property)
+        
+    def display(self):
+        print("Name : rohan")
+        
+        
+c = child(1000, 20000)
+c.father_property()
+c.mother_property()
+c.display()
+
