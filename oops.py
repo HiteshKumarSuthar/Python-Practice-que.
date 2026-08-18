@@ -445,31 +445,31 @@
 # Create an object of Child and call both parent methods.
 
 
-class father:
-    def __init__(self, prop):
-        self.Property = prop
+# class father:
+#     def __init__(self, prop):
+#         self.Property = prop
         
-    def father_property(self):
-        print("Father Property :", self.Property)
+#     def father_property(self):
+#         print("Father Property :", self.Property)
         
-class mother:
-    def __init__(self, mother_property):
-        self.Mother_property = mother_property
+# class mother:
+#     def __init__(self, mother_property):
+#         self.Mother_property = mother_property
         
-    def mother_property(self):
-        print("Mother property :", self.Mother_property)
+#     def mother_property(self):
+#         print("Mother property :", self.Mother_property)
         
-class child(father, mother):
-    def __init__(self, prop, mother_property):
-        father.__init__(self, prop)
-        mother.__init__(self, mother_property)
+# class child(father, mother):
+#     def __init__(self, prop, mother_property):
+#         father.__init__(self, prop)
+#         mother.__init__(self, mother_property)
         
-    def display(self):
-        print("Name : rohan")
+#     def display(self):
+#         print("Name : rohan")
         
         
-c = child(1000, 20000)
-c.father_property()
-c.mother_property()
-c.display()
+# c = child(1000, 20000)
+# c.father_property()
+# c.mother_property()
+# c.display()
 
