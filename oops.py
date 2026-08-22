@@ -488,42 +488,71 @@
 
 
 
-## Duck Typing
+##====Duck Typing====
 ##Ex.
-class Dog:
-    def sound(self):
-        print("Bark")
+# class Dog:
+#     def sound(self):
+#         print("Bark")
         
-class Cat:
-    def sound(self):
-        print("Meow")
+# class Cat:
+#     def sound(self):
+#         print("Meow")
         
-def make_sound(animal):
-    animal.sound()
+# def make_sound(animal):
+#     animal.sound()
     
-dog = Dog()
-cat = Cat()
+# dog = Dog()
+# cat = Cat()
 
-make_sound(dog)
-make_sound(cat)
+# make_sound(dog)
+# make_sound(cat)
 
 
-##Overriding
+##====Overriding====
 ##Ex.
-class Animal:
-    def sound(self):
-        print("yyyyy")
+# class Animal:
+#     def sound(self):
+#         print("yyyyy")
     
-class Dog(Animal):
-    def sound(self):
-        print("bark")
+# class Dog(Animal):
+#     def sound(self):
+#         print("bark")
     
-class Cat(Animal):
-    def sound(self):
-        print("meow")
+# class Cat(Animal):
+#     def sound(self):
+#         print("meow")
         
-dog = Dog()
-cat = Cat()
+# dog = Dog()
+# cat = Cat()
 
-dog.sound()
-cat.sound()
+# dog.sound()
+# cat.sound()
+
+
+##====Method Overloading====
+##Ex.
+# class Calculator:
+
+#     def add(self, a, b, c=0):
+#         return a + b + c
+    
+# c = Calculator()
+# print("First add 1 and 2 :", c.add( 1, 2))
+# print("second add 1, 2 and 3 :", c.add( 1, 2, 3))
+
+
+##====Operator Overloading====
+##Ex.
+class Student:
+    def __init__(self, marks):
+        self.marks = marks
+
+    def __add__(self, other):
+        return self.marks + other.marks
+    
+s1 = Student(10)
+s2 = Student(20)
+
+print("Total is :", s1 + s2)
+
+
