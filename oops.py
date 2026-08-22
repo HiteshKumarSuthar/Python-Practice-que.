@@ -487,3 +487,43 @@
 # print(c.add(10, 20, 30))
 
 
+
+## Duck Typing
+##Ex.
+class Dog:
+    def sound(self):
+        print("Bark")
+        
+class Cat:
+    def sound(self):
+        print("Meow")
+        
+def make_sound(animal):
+    animal.sound()
+    
+dog = Dog()
+cat = Cat()
+
+make_sound(dog)
+make_sound(cat)
+
+
+##Overriding
+##Ex.
+class Animal:
+    def sound(self):
+        print("yyyyy")
+    
+class Dog(Animal):
+    def sound(self):
+        print("bark")
+    
+class Cat(Animal):
+    def sound(self):
+        print("meow")
+        
+dog = Dog()
+cat = Cat()
+
+dog.sound()
+cat.sound()
